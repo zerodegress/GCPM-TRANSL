@@ -39,5 +39,5 @@ ItemEvents.tooltip((event) => {
     Text.red("警告：这些物品已经弃用，并将在未来更新中移除。\n请在工作台中将它们转换为GT覆盖板。")
   );
 
-  event.add("storagedrawers:personal_key_ftb", Text.gray("将我和普通私人钥匙放进合成网格中合成。"));
+  event.add("storagedrawers:personal_key_ftb", Text.gray("将普通私人钥匙放进合成网格中来合成。"));
 });
